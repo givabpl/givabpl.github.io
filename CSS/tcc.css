@@ -1,42 +1,63 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
+:root{
+    --cor0: #272b30;
+    --cor1: #343a40;
+    --cor2: #b9b9b9;
+    --cor3: #e7e7e7;
+    --cor4: #343a4000;
+    --cor5: #484c508f; 
+    --titulo: #e89bff; 
+    --jinx: #3985B1;
+    --bardo: #DBB17A;
+    --irelia: #F3A0A6;
+    --github: #9b58e7;
+    --linkedin: #0A66C2; 
+    --spotify: #22C95C;
+    --instagram: #D52C66;
+    --footer: #261830; 
+    --fonte-header: 'Lexend', sans-serif;
+    --fonte-body: 'Montserrat', sans-serif;
+}
+
 body {
-    background-color: #272b30;
-    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor0);
+    font-family: var(--fonte-body);
+    overflow-x: hidden;
 }
 header {
     margin-bottom: 6em;
 }
 nav > a {
-    font-family: 'Lexend', sans-serif;
+    font-family: var(--fonte-header);
 }
 .nav-link {
-    color: #b9b9b9;
+    color: var(--cor2);
     font-size: 1.1em;
 }
 .nav-link:hover {
-    color: #e7e7e7;
+    color: var(--cor3);
 }
 .dropdown-menu {
     border-radius: 0px;
     border: 0ch;
-    background-color: #343a40;
+    background-color: var(--cor1);
 }
 .dropdown-item {
-    color: #b9b9b9;
+    color: var(--cor2);
     font-size: 1em;
 }
 .dropdown-item:hover {
-    background-color: #343a4000;
-    color: #e7e7e7;
+    background-color: var(--cor4);
+    color: var(--cor3);
     transition: 0.5s;
 }
 .bi {
-    color: #b9b9b9;
+    color: var(--cor2);
 }
 article {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-body);
     margin: 1em auto;
     padding: 4em 2em;
     background-color: #484c508f;
@@ -64,9 +85,9 @@ h4{
     font-size: 1.2em;
     font-weight: bold;
 }
-p{
-    color: #b9b9b9;
-    font-size: 1.4em;
+article p{
+    color: var(--cor2);
+    font-size: 1.2em;
 }
 #g img{
     opacity: 50%;
@@ -77,18 +98,17 @@ p{
     transition: 1s;
 }
 footer{
-    background-color: #261830;
+    background-color: var(--footer);
     padding: 1em 6em;
-    width: 100%;
-    margin-bottom: 0;
 }
 footer #fatec{
     text-align: center;
 }
-#footer-imgs {
-    justify-content: center;
+#footer-imgs a{
+    margin: auto ;
 }
 #footer-imgs .bi:hover{
     color: white;
     transition: 0.5s;
 }
+
