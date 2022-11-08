@@ -20,7 +20,6 @@
     --fonte-header: 'Lexend', sans-serif;
     --fonte-body: 'Montserrat', sans-serif;
 }
-
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-body);
