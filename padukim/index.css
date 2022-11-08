@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+main{
+    font-family: 'Libre Baskerville', serif;
+}
+header{
+    font-size: 1.2em;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.pagination a{
+    color: #4A4A4B;
+    font-family: 'Libre Baskerville', serif;
+}
+.pagination{
+    text-align: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+.pagination a:hover{
+    color: black;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    padding: 0.5em;
+}
+h2{
+    text-align: center;
+    padding: 0.5em;
+}
+#shop {
+    justify-content: center;
+    text-align: center;
+}
+#shop img{
+    border-radius: 2em;
+    margin: 0.5em;
+}
+#descr {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2em 6em;
+    background-color: #39312e63;
+}
+p{
+    text-align: center;
+}
+.brand{
+    color: antiquewhite;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-align: center;
+}
+footer{
+    background-color: #39312E;
+    padding: 2em 8em;
+    text-align: center;
+}
+footer .col{
+    margin: 0.5em;
+}
+footer a{
+    color: #b9aea0;
+}
+footer a:hover{
+    color: #faebd7;
+    transition: 0.5s;
+}

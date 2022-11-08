@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body {
+    background-color: #272b30;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    margin-bottom: 6em;
+}
+nav > a {
+    font-family: 'Lexend', sans-serif;
+}
+.nav-link {
+    color: #b9b9b9;
+    font-size: 1.1em;
+}
+.nav-link:hover {
+    color: #e7e7e7;
+}
+.dropdown-menu {
+    border-radius: 0px;
+    border: 0ch;
+    background-color: #343a40;
+}
+.dropdown-item {
+    color: #b9b9b9;
+    font-size: 1em;
+}
+.dropdown-item:hover {
+    background-color: #343a4000;
+    color: #e7e7e7;
+    transition: 0.5s;
+}
+.bi {
+    color: #b9b9b9;
+}
+.carousel{
+    position:relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-imgs{
+    display: flex;
+    flex-direction: row;
+    width: 400%;
+    animation-name: animation-carousel;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.carousel-imgs img{
+    width: 100%;
+}
+@keyframes animation-carousel {
+    0%{ margin-left: 0;}
+    10%{ margin-left: 0;}
+    20%{ margin-left: -100%;}
+    40%{ margin-left: -100%;}
+    50%{ margin-left: -100%;}
+    60%{ margin-left: -200%;}
+    70%{ margin-left: -200%;}
+    80%{ margin-left: -200%;}
+    90%{ margin-left: -300%;}
+    100%{ margin-left: -300%;}
+}
+article {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1em auto;
+    padding: 4em 2em;
+    background-color: #484c508f;
+    border-radius: 2em;
+    text-align: center;
+    min-width: 300px;
+    max-width: 1080px;
+}
+#title{
+    color: #e89bff;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+.sobre img{ 
+    border-radius: 130px;
+}
+h1{
+    font-size: 2.2em;
+    margin: 1em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.6em;
+}
+h4{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.jinx{
+    color: #3985B1;
+}
+.bardo{
+    color: #DBB17A;
+}
+.irelia{
+    color: #F3A0A6;
+}
+p{
+    color: #b9b9b9;
+    font-size: 1.4em;
+}
+#conhecimentos div{
+    margin: 1em auto;
+    border: 0.1em solid #e89bff;
+    border-radius: 0.5em;
+    padding: 0.3em;
+    width: 45em;
+}
+#conhecimentos .certificado{
+    color: #b9b9b9;
+    font-size: 1.2em;
+}
+#conhecimentos .certificado:hover{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.sobre > .sobre-text{
+    display: flex;
+    flex-direction: row;
+}
+.sobre-img > img{
+    object-fit: contain;
+    margin: 1em;
+}
+.bi-link-45deg {
+    color: #e89bff;
+}
+.links .social{
+    margin: 1em;
+}
+.social a {
+    color: #eff7dd;
+}
+.social .bi-github:hover {
+    color: #9b58e7;
+    transition: 1s;
+}
+.social .bi-linkedin:hover {
+    color: #0A66C2;
+    transition: 1s;
+}
+.social .bi-spotify:hover {
+    color: #22C95C;
+    transition: 1s;
+}
+.social .bi-instagram:hover {
+    color: #D52C66;
+    transition: 1s;
+}
+.bi-envelope{
+    color: #e89bff;
+}
+#email{
+    margin-top: 1em;
+}
+.email{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#mapa .bi{
+    color: #e89bff;
+    margin-bottom: 1em;
+}
+#maps iframe{                          
+    margin: auto;
+    border: 0;
+}
+footer{
+    background-color: #261830;
+    padding: 1em 6em;
+}
+footer #fatec{
+    text-align: center;
+}
+#footer-imgs {
+    justify-content: center;
+}
+#footer-imgs .bi:hover{
+    color: white;
+    transition: 0.5s;
+}
