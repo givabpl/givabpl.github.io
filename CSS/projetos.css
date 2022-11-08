@@ -77,7 +77,6 @@ h3{
 article p{
     color: var(--cor2);
     font-size: 1.2em;
-    margin-top: 1em;
 }
 #title{
     color: var(--titulo);
@@ -99,8 +98,9 @@ article p{
     color: white;
     transition: 0.5s;
 }
-.app{
+.capa img{
     border-radius: 2em;
+    margin-bottom: 1.5em;
 }
 footer{
     background-color: var(--footer);
