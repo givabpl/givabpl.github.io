@@ -9,9 +9,6 @@
     --cor4: #343a4000;
     --cor5: #484c508f; 
     --titulo: #e89bff; 
-    --jinx: #3985B1;
-    --bardo: #DBB17A;
-    --irelia: #F3A0A6;
     --github: #9b58e7;
     --linkedin: #0A66C2; 
     --spotify: #22C95C;
@@ -115,15 +112,6 @@ h3{
 h4{
     font-size: 1.2em;
     font-weight: bold;
-}
-.jinx{
-    color: var(--jinx);
-}
-.bardo{
-    color: var(--bardo);
-}
-.irelia{
-    color: var(--irelia);
 }
 article p{
     color: var(--cor2);
