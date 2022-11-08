@@ -17,6 +17,14 @@
     --spotify: #22C95C;
     --instagram: #D52C66;
     --footer: #261830; 
+    --pasta1: #b559d1; 
+    --pasta2: #a255c0;
+    --pasta3: #cd74f0;
+    --pasta4: #83449c; 
+    --botao1: #3aa0a0;
+    --botao2: #6ecaca;
+    --cartao: #000000a9;
+    --baixar: #efb8ff;
     --fonte-header: 'Lexend', sans-serif;
     --fonte-body: 'Montserrat', sans-serif;
 }
@@ -60,14 +68,14 @@ article {
     font-family: var(--fonte-body);
     margin: 1em auto;
     padding: 4em 2em;
-    background-color: #484c508f;
+    background-color: var(--cor5);
     border-radius: 2em;
     text-align: center;
     min-width: 300px;
     max-width: 1080px;
 }
 #title{
-    color: #e89bff;
+    color: var(--titulo);
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -87,7 +95,7 @@ h4{
 }
 .btn{
     color: #272529;
-    background-color: #3aa0a0;
+    background-color: var(--botao1);
     border: 0em;
     font-weight: bold;
     margin: 0.5em auto;
@@ -96,28 +104,28 @@ h4{
 }
 .btn:hover{
     color: #272529;
-    background-color: #6ecaca;
+    background-color: var(--botao2);
 }
 .btn:active{
     color: #272529;
     border: 0em;
-    background-color: #b559d1;
+    background-color: var(--pasta1);
 }
 #mat{
-    background-color: #a255c0;
+    background-color: var(--pasta2);
     width: 45em;
 }
 #mat:hover{
-    background-color: #cd74f0;
+    background-color: var(--pasta3);
 }
 #mat:active{
-    background-color: #83449c;
+    background-color: var(--pasta4);
 }
 .materias > .btn{
     width: 40em;
 }
 .card{
-    background-color: #000000a9;
+    background-color: var(--cartao);
     border-radius: 1.5em;
     width: 45em;
     margin: auto;
@@ -139,7 +147,7 @@ h4{
     color: white;
 }
 .baixar > a{
-    color: #efb8ff;
+    color: var(--baixar);
 }
 .baixar > a:hover{
     transition: 0.5s;
