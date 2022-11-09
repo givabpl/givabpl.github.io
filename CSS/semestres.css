@@ -96,7 +96,7 @@ h4{
     border: 0em;
     font-weight: bold;
     margin: 0.5em auto;
-    border-radius: 0.5em;
+    border-radius: 1em;
     height: 3em;
 }
 .btn:hover{
