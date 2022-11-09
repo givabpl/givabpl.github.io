@@ -8,7 +8,7 @@
     --cor3: #e7e7e7;
     --cor4: #343a4000;
     --cor5: #484c508f; 
-    --titulo: #e89bff; 
+    --titulo: #e0abf0; 
     --github: #9b58e7;
     --linkedin: #0A66C2; 
     --spotify: #22C95C;
@@ -91,7 +91,7 @@ article {
     min-width: 300px;
     max-width: 1080px;
 }
-#title{
+.title{
     color: var(--titulo);
     margin-top: 3em;
     margin-bottom: 1em;
@@ -120,7 +120,7 @@ article p{
 #conhecimentos div{
     margin: 1em auto;
     border: 0.1em solid var(--titulo);
-    border-radius: 0.5em;
+    border-radius: 1em;
     padding: 0.3em;
     width: 45em;
 }
@@ -169,7 +169,7 @@ article p{
 .bi-envelope{
     color: var(--titulo);
 }
-#email{
+.email{
     margin-top: 1em;
 }
 .email{

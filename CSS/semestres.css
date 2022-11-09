@@ -8,16 +8,16 @@
     --cor3: #e7e7e7;
     --cor4: #343a4000;
     --cor5: #484c508f; 
-    --titulo: #e89bff; 
+    --titulo: #e0abf0; 
     --github: #9b58e7;
     --linkedin: #0A66C2; 
     --spotify: #22C95C;
     --instagram: #D52C66;
     --footer: #261830; 
-    --pasta1: #b559d1; 
-    --pasta2: #a255c0;
-    --pasta3: #cd74f0;
-    --pasta4: #83449c; 
+    --pasta1: #c06eda; 
+    --pasta2: #ac64c9;
+    --pasta3: #d389f0;
+    --pasta4: #8f58a5; 
     --botao1: #3aa0a0;
     --botao2: #6ecaca;
     --cartao: #000000a9;
@@ -71,7 +71,7 @@ article {
     min-width: 300px;
     max-width: 1080px;
 }
-#title{
+.title{
     color: var(--titulo);
     margin-top: 1em;
     margin-bottom: 1em;
