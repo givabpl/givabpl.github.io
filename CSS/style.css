@@ -193,7 +193,8 @@ footer #fatec{
     text-align: center;
 }
 #footer-imgs a{
-    margin: auto ;
+    margin: 1em auto;
+    
 }
 #footer-imgs .bi:hover{
     color: white;
