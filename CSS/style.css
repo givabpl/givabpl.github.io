@@ -171,10 +171,11 @@ article p{
 }
 .email{
     margin-top: 1em;
-}
-.email{
     font-size: 1.2em;
     font-weight: bold;
+}
+.email-item{
+    font-size: 1.1em;
 }
 #mapa .bi{
     color: var(--titulo);
