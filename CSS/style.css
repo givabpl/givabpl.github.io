@@ -187,13 +187,15 @@ article p{
 }
 footer{
     background-color: var(--footer);
-    padding: 1em 6em;
+    padding: 1em;
+    margin: 0em;
 }
 footer #fatec{
     text-align: center;
 }
 #footer-imgs a{
-    margin: 1.5em auto;
+    margin: auto;
+    text-align: center;
     
 }
 #footer-imgs .bi:hover{
