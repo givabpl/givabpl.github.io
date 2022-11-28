@@ -62,7 +62,7 @@ header{
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0, 0, 0, 0.699);
 	z-index: 99999;
 	opacity:0;
 	transition: 400ms ease-in;
@@ -74,16 +74,19 @@ header{
 	pointer-events: auto;
 }
 .modalDialog > div {
-	width: 35em;
+	width: 30em;
 	position: relative;
-	margin: 10% auto;
-	padding: 1.5em;
+	margin: auto;
+	padding: 1em;
 	border-radius: 1em;
     border: solid #39312E 0.3em;
-    background-color: #f8eecd;
+    background-color: #ebe7db;
+}
+.modalDialog .col {
+    margin: 4em auto;
 }
 .modalDialog img{
-    border-radius: 15em;
+    border-radius: 10em;
 }
 .modalDialog .ingredientes{
     font-size: 0.9em;
@@ -91,21 +94,21 @@ header{
 .close {
 	background: #a09982;
 	color: #39312E;
-	line-height: 1.5em;
+	line-height: 2em;
 	position: absolute;
 	right: -12px;
 	text-align: center;
 	top: -10px;
-	width: 24px;
+	width: 2em;
 	text-decoration: none;
 	font-weight: bold;
 	border-radius: 2em;
-	box-shadow: 1px 1px 3px #000;
-    font-family: Arial, Helvetica, sans-serif;
+	box-shadow: 0.2em 0.1em 0.2em rgba(0, 0, 0, 0.637);
+    font-family: 'Times New Roman', Times, serif;
 }
 .close:hover { 
     color: #39312E;
-    background: #eee1b7; 
+    background: #b4aa8c; 
     transition: 0.5s;
 }
 .brand{
