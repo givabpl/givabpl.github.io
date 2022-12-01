@@ -3,7 +3,7 @@
 main{
     font-family: 'Libre Baskerville', serif;
     background-color: #d4c4b2;
-    padding: 2em;
+    padding: 1em;
 }
 header{
     font-size: 1.2em;
@@ -20,9 +20,11 @@ h2{
 article{
     background-color: #8a79759f;
     border-radius: 3em;
-    margin: 1.5em;
-    padding: 2em;
-    font-size: 1.4em;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: 1.3em;
+    min-width: 300px;
+    max-width: 1000px;
 }
 article ol li{
     padding: 0.5em;
