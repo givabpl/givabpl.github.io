@@ -3,6 +3,7 @@
 main{
     font-family: 'Libre Baskerville', serif;
     margin: 1em;
+    text-align: center;
 }
 header{
     font-size: 1.2em;
@@ -27,11 +28,8 @@ p{
     padding: 0.5em;
 }
 main img{
-    border-radius: 160px;
-    display: flex;
-    flex-direction: row;
-    margin: 0em 2em;
-
+    border-radius: 50em;
+    margin: 1em 2em;
 }
 .brand{
     color: antiquewhite;
@@ -45,7 +43,7 @@ footer{
     text-align: center;
 }
 footer .row{
-    margin: 0em 4em;
+    margin: 0em 2em;
 }
 footer .col{
     margin: 0.5em;
