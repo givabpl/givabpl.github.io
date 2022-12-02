@@ -37,15 +37,15 @@ header{
     color: black;
 }
 .row .col{
-    margin: 2em;
+    margin: 1em 2em;
 }
 #produto img{
-    border-radius: 1em;
+    border-radius: 2em;
 }
 #produto div{
     border: 0.2em solid #39312E;
-    border-radius: 1em;
-    padding: 1.2em;
+    border-radius: 2em;
+    padding: 0.5em;
     text-align: center;
 }
 #price{
@@ -74,22 +74,26 @@ header{
 	pointer-events: auto;
 }
 .modalDialog > div {
-	width: 30em;
+	width: 20em;
+    height: 20em;
 	position: relative;
 	margin: auto;
 	padding: 1em;
-	border-radius: 1em;
+	border-radius: 2em;
     border: solid #39312E 0.3em;
-    background-color: #ebe7db;
+    background-color: #ecebe6;
 }
 .modalDialog .col {
     margin: 4em auto;
 }
 .modalDialog img{
-    border-radius: 10em;
+    border-radius: 5em;
+    margin-top: 1.1em;
+    margin-left: -2em;
 }
 .modalDialog .ingredientes{
-    font-size: 0.9em;
+    font-size: 1em;
+    margin-bottom: 1em;
 }
 .close {
 	background: #a09982;
