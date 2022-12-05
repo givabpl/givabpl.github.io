@@ -31,6 +31,14 @@ body {
     font-family: var(--fonte-body);
     overflow-x: hidden;
 }
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
 header {
     margin-bottom: 6em;
 }
@@ -91,7 +99,7 @@ h4{
     font-weight: bold;
 }
 .btn{
-    color: #272529;
+    color: #0b0b0c;
     background-color: var(--botao1);
     border: 0em;
     font-weight: bold;
