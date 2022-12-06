@@ -6,8 +6,7 @@ main{
 }
 header{
     font-size: 1.2em;
-    font-family: 'Libre Baskerville', serif;
-    
+    font-family: 'Libre Baskerville', serif;  
 }
 .pagination a{
     color: #4A4A4B;
@@ -22,11 +21,13 @@ header{
     color: black;
     transition: 0.5s;
 }
-h1{
+body h1{
+    font-size: 2.3em;
     text-align: center;
     padding: 0.5em;
 }
-h2{
+body h2{
+    font-size: 2em;
     text-align: center;
     padding: 0.5em;
 }
@@ -54,11 +55,14 @@ p{
 }
 footer{
     background-color: #39312E;
-    padding: 2em 4em;
+    padding: 2em;
     text-align: center;
 }
 footer .col{
     margin: 0.5em;
+}
+footer #footer-imgs{
+    justify-content: center;
 }
 footer a{
     color: #b9aea0;
