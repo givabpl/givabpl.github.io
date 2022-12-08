@@ -37,16 +37,19 @@ header{
     color: black;
 }
 .row .col{
-    margin: 1em 2em;
+    margin: 1em 2.4em;
 }
 #produto img{
     border-radius: 2em;
+    margin: 2em;
 }
 #produto div{
     border: 0.2em solid #39312E;
     border-radius: 2em;
     padding: 0.5em;
     text-align: center;
+    
+
 }
 #price{
     margin: 0.5em 0em 0.1em 0em;
