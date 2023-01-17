@@ -2,18 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 :root{
-    --cor0: #272b30;
+    --cor0: #0e1013;
     --cor1: #343a40;
     --cor2: #b9b9b9;
     --cor3: #e7e7e7;
     --cor4: #343a4000;
-    --cor5: #484c508f; 
+    --cor5: #3a3d4159; 
     --titulo: #e0abf0; 
     --github: #9b58e7;
     --linkedin: #0A66C2; 
     --spotify: #22C95C;
     --instagram: #D52C66;
-    --footer: #261830; 
+    --footer: #0e1013; 
     --fonte-header: 'Lexend', sans-serif;
     --fonte-body: 'Montserrat', sans-serif;
 }
@@ -34,6 +34,9 @@ body {
 header {
     margin-bottom: 6em;
 }
+.bg{
+    background-color: #0e101333;
+}
 nav > a {
     font-family: var(--fonte-header);
 }
@@ -47,7 +50,7 @@ nav > a {
 .dropdown-menu {
     border-radius: 0px;
     border: 0ch;
-    background-color: var(--cor1);
+    background-color: #0e101333;
 }
 .dropdown-item {
     color: var(--cor2);
@@ -61,7 +64,7 @@ nav > a {
 .bi {
     color: var(--cor2);
 }
-.carousel{
+/*.carousel{
     position:relative;
     width: 100%;
     overflow: hidden;
@@ -88,6 +91,11 @@ nav > a {
     80%{ margin-left: -200%;}
     90%{ margin-left: -300%;}
     100%{ margin-left: -300%;}
+} */
+
+.lista1 ul{
+    list-style-type: none;
+    font-size: 5em;
 }
 article {
     font-family: var(--fonte-body);
