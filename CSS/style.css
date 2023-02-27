@@ -48,6 +48,9 @@ nav > a {
 .nav-link:hover {
     color: var(--cor3);
 }
+.bi{
+    color: var(--titulo);
+}
 
 /*.carousel{
     position:relative;
