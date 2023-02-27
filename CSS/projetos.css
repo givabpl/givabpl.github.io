@@ -48,7 +48,9 @@ nav > a {
 .nav-link:hover {
     color: var(--cor3);
 }
-
+.bi{
+    color: var(--titulo);
+}
 article {
     font-family: var(--fonte-body);
     margin: 1em auto;
