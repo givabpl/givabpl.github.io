@@ -10,6 +10,7 @@
     --cor4: #343a4000;
     --cor5: #3a3d4159; 
     --titulo: #FFE3BA; 
+    --titulo-highlight: #fae7ca;
     --github: #9b58e7;
     --linkedin: #0A66C2; 
     --spotify: #22C95C;
@@ -42,11 +43,11 @@ nav > a {
     font-family: var(--fonte-header);
 }
 .nav-link {
-    color: var(--cor2);
+    color: var(--titulo);
     font-size: 1.1em;
 }
 .nav-link:hover {
-    color: var(--cor3);
+    color: var(--titulo-highlight);
 }
 .bi{
     color: var(--titulo);
@@ -96,6 +97,10 @@ article .projeto{
 article img{
     border-radius: 5em;
     margin-bottom: 1.5em;
+}
+.logo-body{
+    text-align: center;
+    padding-bottom: 1em;
 }
 footer{
     background-color: var(--footer);
