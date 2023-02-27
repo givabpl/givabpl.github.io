@@ -1,22 +1,24 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Inconsolata:wght@200;400;700&display=swap');
+
 
 :root{
-    --cor0: #272b30;
+    --cor0: #000000;
     --cor1: #343a40;
     --cor2: #b9b9b9;
     --cor3: #e7e7e7;
     --cor4: #343a4000;
-    --cor5: #484c508f; 
-    --titulo: #e0abf0;
+    --cor5: #3a3d4159; 
+    --titulo: #FFE3BA; 
     --github: #9b58e7;
     --linkedin: #0A66C2; 
     --spotify: #22C95C;
     --instagram: #D52C66;
-    --footer: #261830; 
-    --fonte-header: 'Lexend', sans-serif;
-    --fonte-body: 'Montserrat', sans-serif;
+    --footer: #0e1013; 
+    --fonte-header: 'Bodoni Moda', serif;
+    --fonte-body: 'Bodoni Moda', serif;
 }
+
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-body);
@@ -33,6 +35,9 @@ body {
 header {
     margin-bottom: 6em;
 }
+.bg{
+    background-color: #0e101333;
+}
 nav > a {
     font-family: var(--fonte-header);
 }
@@ -43,23 +48,7 @@ nav > a {
 .nav-link:hover {
     color: var(--cor3);
 }
-.dropdown-menu {
-    border-radius: 0px;
-    border: 0ch;
-    background-color: var(--cor1);
-}
-.dropdown-item {
-    color: var(--cor2);
-    font-size: 1em;
-}
-.dropdown-item:hover {
-    background-color: var(--cor4);
-    color: var(--cor3);
-    transition: 0.5s;
-}
-.bi {
-    color: var(--cor2);
-}
+
 article {
     font-family: var(--fonte-body);
     margin: 1em auto;
@@ -72,7 +61,6 @@ article {
 }
 h1{
     font-size: 1.9em;
-    margin: 1em;
 }
 h2{
     font-size: 1.6em;
@@ -86,9 +74,8 @@ article p{
 }
 .title{
     color: var(--titulo);
-    margin-bottom: 1em;
 }
-.projeto{
+article .projeto{
     border: 0.1em solid var(--titulo);
     border-radius: 1em;
     padding: 0.5em;
@@ -104,8 +91,8 @@ article p{
     color: white;
     transition: 0.5s;
 }
-.capa img{
-    border-radius: 2em;
+article img{
+    border-radius: 5em;
     margin-bottom: 1.5em;
 }
 footer{
@@ -113,9 +100,15 @@ footer{
     text-align: center;
     padding: 2em;
 }
+footer a{
+    color: var(--cor2);
+}
+footer a:hover{
+    color: var(--cor2);
+}
 footer #footer-imgs{
     justify-content: center;
-
+    color: var(--titulo);
 }
 footer .col{
     margin: 0.5em;
