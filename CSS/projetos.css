@@ -102,25 +102,4 @@ article img{
     text-align: center;
     padding-bottom: 1em;
 }
-footer{
-    background-color: var(--footer);
-    text-align: center;
-    padding: 2em;
-}
-footer a{
-    color: var(--cor2);
-}
-footer a:hover{
-    color: var(--cor2);
-}
-footer #footer-imgs{
-    justify-content: center;
-    color: var(--titulo);
-}
-footer .col{
-    margin: 0.5em;
-}
-#footer-imgs .bi:hover{
-    color: white;
-    transition: 0.5s;
-}
+

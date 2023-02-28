@@ -52,41 +52,11 @@ nav > a {
 .bi{
     color: var(--titulo);
 }
-
-/*.carousel{
-    position:relative;
-    width: 100%;
-    overflow: hidden;
-}
-.carousel-imgs{
-    display: flex;
-    flex-direction: row;
-    width: 400%;
-    animation-name: animation-carousel;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-.carousel-imgs img{
-    width: 100%;
-}
-@keyframes animation-carousel {
-    0%{ margin-left: 0;}
-    10%{ margin-left: 0;}
-    20%{ margin-left: -100%;}
-    40%{ margin-left: -100%;}
-    50%{ margin-left: -100%;}
-    60%{ margin-left: -200%;}
-    70%{ margin-left: -200%;}
-    80%{ margin-left: -200%;}
-    90%{ margin-left: -300%;}
-    100%{ margin-left: -300%;}
-} */
-
 .lista1 ul{
     list-style-type: none;
     font-size: 5em;
 }
-article {
+article{
     font-family: var(--fonte-body);
     margin: 1em auto;
     padding: 2em;
@@ -100,9 +70,6 @@ article {
     color: var(--titulo);
     margin-top: 3em;
     margin-bottom: 1em;
-}
-.sobre img{ 
-    border-radius: 25em;
 }
 h1{
     font-size: 2em;
@@ -140,8 +107,11 @@ article p{
     flex-direction: row;
 }
 .sobre-img > img{
+    height: 55%; 
+    width: 55%; 
     object-fit: contain;
     margin: 1em;
+    border-radius: 30em;
 }
 .bi-link-45deg {
     color: var(--titulo);
@@ -191,26 +161,4 @@ article p{
 .logo-body{
     text-align: center;
     padding-bottom: 1em;
-}
-footer{
-    background-color: var(--footer);
-    text-align: center;
-    padding: 2em;
-}
-footer a{
-    color: var(--cor2);
-}
-footer a:hover{
-    color: var(--cor2);
-}
-footer #footer-imgs{
-    justify-content: center;
-    color: var(--titulo);
-}
-footer .col{
-    margin: 0.5em;
-}
-#footer-imgs .bi:hover{
-    color: white;
-    transition: 0.5s;
 }
