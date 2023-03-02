@@ -64,6 +64,7 @@ article {
 }
 h1{
     font-size: 1.9em;
+    margin-bottom: 0.8em;
 }
 h2{
     font-size: 1.6em;
@@ -94,9 +95,12 @@ article .projeto{
     color: white;
     transition: 0.5s;
 }
-article img{
-    border-radius: 5em;
+.capa img{
+    border-radius: 3em;
     margin-bottom: 1.5em;
+    height: 60%; 
+    width: 60%; 
+    object-fit: contain;
 }
 .logo-body{
     text-align: center;
