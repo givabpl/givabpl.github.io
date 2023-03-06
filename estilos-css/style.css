@@ -5,7 +5,7 @@
 :root{
     --cor0: #000000;
     --cor1: #343a40;
-    --cor2: #b9b9b9;
+    --cor2: #cecece;
     --cor3: #e7e7e7;
     --cor4: #343a4000;
     --cor5: #47494d59; 
@@ -87,7 +87,7 @@ article p{
     font-size: 1.2em;
 }
 #conhecimentos div{
-    margin: 1em auto;
+    margin: 1.5em auto;
     border: 0.1em solid var(--titulo);
     border-radius: 1em;
     padding: 0.3em;
