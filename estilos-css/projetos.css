@@ -5,7 +5,7 @@
 :root{
     --cor0: #000000;
     --cor1: #343a40;
-    --cor2: #b9b9b9;
+    --cor2: #c9c9c9;
     --cor3: #e7e7e7;
     --cor4: #343a4000;
     --cor5: #47494d59;  
@@ -106,4 +106,17 @@ article .projeto{
     text-align: center;
     padding-bottom: 1em;
 }
+.card-body{
+    border-radius: 2em;
+    background-color: var(--cor4);
+    border: 0.2em solid var(--cor5);
+    box-shadow: 2em;
+}
+p .btn-primary{
+    font-size: 1.1em;
+    border-radius: 0.4em;
+    color: var(--titulo);
+    margin: 0.6em 0em;
+}
+
 
