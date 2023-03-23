@@ -118,5 +118,12 @@ p .btn-primary{
     color: var(--titulo);
     margin: 0.6em 0em;
 }
+p a {
+    color: var(--titulo);
+}
+p a:hover{
+    color: var(--titulo-highlight);
+    transition: 0.5s;
+}
 
 
