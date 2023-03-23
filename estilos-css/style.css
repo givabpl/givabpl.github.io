@@ -90,13 +90,14 @@ article p{
     margin: 1.5em auto;
     border: 0.1em solid var(--titulo);
     border-radius: 1em;
-    padding: 0.3em;
-    width: 45em;
+    padding: 0.6em;
+    width: fit-content;
 }
 #conhecimentos .certificado{
     color: var(--cor2);
     font-size: 1.1em;
     font-weight: bold;
+    padding: 0.5em;
 }
 #conhecimentos .certificado:hover{
     text-decoration: none;

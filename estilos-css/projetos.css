@@ -83,7 +83,6 @@ article .projeto{
     border: 0.1em solid var(--titulo);
     border-radius: 1em;
     padding: 0.5em;
-    width: 40em;
     margin: auto;
 }
 .projeto a{
@@ -96,7 +95,7 @@ article .projeto{
     transition: 0.5s;
 }
 .capa img{
-    border-radius: 3em;
+    border-radius: 2em;
     margin-bottom: 1.5em;
     height: 60%; 
     width: 60%; 
