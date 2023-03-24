@@ -112,8 +112,10 @@ article .projeto{
     box-shadow: 2em;
 }
 p .btn-primary{
+    background: #2bd4d785;
+    background: linear-gradient(309deg, #2bd4d794 0%, #ffb17dc4 100%);
     font-size: 1.1em;
-    border-radius: 0.4em;
+    border-radius: 0.8em;
     color: var(--titulo);
     margin: 0.6em 0em;
 }
