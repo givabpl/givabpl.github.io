@@ -34,7 +34,8 @@ body {
     overflow: hidden;
 }
 header {
-    margin-bottom: 6em;
+    font-family: var(--fonte-header);
+
 }
 .bg{
     background-color: #0e101333;
