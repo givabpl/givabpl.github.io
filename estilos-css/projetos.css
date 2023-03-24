@@ -109,7 +109,8 @@ article .projeto{
     border-radius: 2em;
     background-color: var(--cor4);
     border: 0.2em solid var(--cor5);
-    box-shadow: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
 }
 p .btn-primary{
     background: #2bd4d785;
@@ -118,6 +119,8 @@ p .btn-primary{
     border-radius: 0.8em;
     color: var(--titulo);
     margin: 0.6em 0em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 p a {
     color: var(--titulo);
