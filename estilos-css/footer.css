@@ -1,31 +1,23 @@
-@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Inconsolata:wght@200;400;700&display=swap');
-
-:root{
-    --cor2: #b9b9b9;
-    --titulo: #FFE3BA;
-    --titulo-highlight: #fae7ca; 
-    --footer: #0e1013; 
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Inconsolata:wght@200;400;700&display=swap");
+footer {
+  background-color: #0e1013;
+  text-align: center;
+  padding: 2em;
 }
-footer{
-    background-color: var(--footer);
-    text-align: center;
-    padding: 2em;
+footer a {
+  color: #b9b9b9;
 }
-footer a{
-    color: var(--cor2);
+footer a:hover {
+  color: #b9b9b9;
 }
-footer a:hover{
-    color: var(--cor2);
+footer #footer-imgs {
+  justify-content: center;
+  color: #FFE3BA;
 }
-footer #footer-imgs{
-    justify-content: center;
-    color: var(--titulo);
+footer .col {
+  margin: 0.5em;
 }
-footer .col{
-    margin: 0.5em;
-}
-#footer-imgs .bi:hover{
-    color: white;
-    transition: 0.5s;
-}
+footer #footer-imgs .bi:hover {
+  color: white;
+  transition: 0.5s;
+}/*# sourceMappingURL=footer.css.map */
