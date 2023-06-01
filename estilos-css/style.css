@@ -69,12 +69,11 @@ article p .email {
   font-family: 'Silkscreen', cursive;
   color: #FFE3BA;
   margin-top: 3em;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 h1 {
   font-size: 2em;
-  margin: 1em;
 }
 
 h2 {
