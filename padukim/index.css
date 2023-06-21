@@ -31,19 +31,25 @@ body h2{
     text-align: center;
     padding: 0.5em;
 }
-#shop {
+main #shop img{
     justify-content: center;
     text-align: center;
+    margin: 0;
+    width: 100%;
 }
-#shop img{
-    border-radius: 2em;
-    margin: 0.5em;
+
+#descricao{
+    font-size: 2vw;
+    padding: 2vw;
+    margin: 2vw;
 }
-#descr {
-    font-size: 1.5em;
-    padding: 2em;
-    background-color: #39312e63;
-}
+
+
+
+
+
+
+
 p{
     text-align: center;
 }
@@ -53,6 +59,20 @@ p{
     font-style: italic;
     text-align: center;
 }
+
+.lista div{
+    display: flex;
+    justify-content: center;
+    margin: 2vw auto;
+}
+
+.lista div ul li{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 1vw;
+    font-size: 1.6vw;
+}
+
 footer{
     background-color: #39312E;
     padding: 2em;

@@ -7,6 +7,13 @@ main{
     font-family: 'Libre Baskerville', serif;
     overflow: hidden;
 }
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+}
+
+
 #title{
     text-align: center;
     padding: 0.5em 0.5em;
@@ -32,6 +39,12 @@ header{
     color: black;
     transition: 0.5s;
 }
+
+#produto{
+    max-width: 360px;
+    margin: 2vw;
+}
+
 #produto a{
     text-decoration: none;
     color: black;
@@ -48,8 +61,6 @@ header{
     border-radius: 2em;
     padding: 0.5em;
     text-align: center;
-    
-
 }
 #price{
     margin: 0.5em 0em 0.1em 0em;

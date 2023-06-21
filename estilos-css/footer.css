@@ -1,23 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Inconsolata:wght@200;400;700&display=swap");
+
+
 footer {
-  background-color: #0e1013;
-  text-align: center;
-  padding: 2em;
+  padding: 40px 20px;
 }
-footer a {
-  color: #b9b9b9;
+/*# sourceMappingURL=footer.css.map */
+
+.email-footer{
+  margin: auto;
 }
-footer a:hover {
-  color: #b9b9b9;
+
+.email-footer p{
+  color: rgb(46, 46, 46);
+  font-size: 2vw;
 }
-footer #footer-imgs {
+
+footer .email-footer{
   justify-content: center;
-  color: #FFE3BA;
+  text-align: center;
 }
-footer .col {
-  margin: 0.5em;
+footer .nav a{
+  text-decoration: none;
+  color: black; 
 }
-footer #footer-imgs .bi:hover {
-  color: white;
-  transition: 0.5s;
-}/*# sourceMappingURL=footer.css.map */
+
+footer .nav .nav-link .bi-github:hover {
+  color: #9b58e7;
+  transition: 1s;
+}
+footer .nav .nav-link .bi-linkedin:hover {
+  color: #0A66C2;
+  transition: 1s;
+}
+footer .nav .nav-link .bi-spotify:hover {
+  color: #22C95C;
+  transition: 1s;
+}
+footer .nav .nav-link .bi-instagram:hover {
+  color: #D52C66;
+  transition: 1s;
+}

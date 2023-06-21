@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=Inconsolata:wght@200;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700;800;900&display=swap');
+
 body {
-  background-color: #000000;
-  font-family: 'Silkscreen', cursive;
+  background: hsla(141, 81%, 87%, 1);
+
+  background: linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(141, 81%, 87%, 1) 0%, hsla(41, 88%, 75%, 1) 50%, hsla(358, 82%, 71%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );
   overflow-x: hidden;
 }
 
@@ -16,72 +24,119 @@ body {
 }
 
 header {
-  font-family: 'Silkscreen', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
-
-.bg {
-  background-color: rgba(14, 16, 19, 0.2);
-}
-
 nav > a {
-  font-family: 'Silkscreen', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.nav-link {
-  color: #FFE3BA;
-  font-size: 1.1em;
-}
-.nav-link:hover {
-  color: #fae7ca;
+.apresentacao{
+  margin: 60px 10px 60px 60px;
 }
 
-.bi {
-  color: #FFE3BA;
+.apresentacao .intro{
+  color: white;
+  text-transform: uppercase;
+}
+.breve-intro{
+  max-width: 68%;
+}
+
+
+.apresentacao .intro h2{
+  padding: 0em;
+  margin: 0em;
+  font-weight: 800;
+  font-size: 10vw;
+  line-height: 0.9;
+}
+.apresentacao .intro h1{
+  font-weight: 800;
+  font-size: 4vw;
+}
+
+.lista-links .icones-links ul li{
+  list-style-type: none;
+  display: inline;
+  text-align: left;
+}
+
+.icones-links{
+  text-align: left;
+}
+
+.icones-links ul li a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+.breve-intro p{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: none;
+  font-size: 2vw;
+  margin-left: 5px;
+}
+
+.icones-links ul li a .bi-linkedin:hover{
+  margin-top: 10%;
+  color:  #ade2ff;
+  transition: 0.5s;
+}
+
+.icones-links ul li .bi-github:hover{
+  margin-top: 10%;
+  color:  #e3b3ff;
+  transition: 0.5s;
+}
+
+.icones-links ul li .bi-file-earmark-text-fill:hover{
+  margin-top: 10%;
+  color:  #c2ffb3;
+  transition: 0.5s;
+}
+
+.lista-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+.lista-links > .icones-links .bi{
+  margin-top: 20%;
+}
+.icones-links li{
+  margin-right: 1vw;
+}
+
+
+.telas {
+  margin-left: 60px;
+}
+
+.telas .tela1 img{
+  margin-right: 20px;
 }
 
 article {
-  font-family: 'Silkscreen', cursive;
-  margin: 1em auto;
-  padding: 2em 2em;
-  background-color: rgba(71, 73, 77, 0.3490196078);
+  font-family: 'Montserrat', sans-serif;
+  margin: 10% auto;
+  padding: 25px;
   border-radius: 2em;
   text-align: center;
   min-width: 300px;
   max-width: 1080px;
 }
+
 article p {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: #b9b9b9;
-  font-size: 1.2em;
-}
-article p .email {
-  margin-top: 1em;
-  font-size: 1.1em;
 }
 
 .lista1 ul {
   list-style-type: none;
   font-size: 5em;
-}
-
-.title {
-  font-family: 'Silkscreen', cursive;
-  color: #FFE3BA;
-  margin-top: 3em;
-  margin-bottom: 0.5em;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-h3 {
-  font-size: 1.6em;
 }
 
 #conhecimentos div {
@@ -107,64 +162,6 @@ h3 {
 .sobre > .sobre-text {
   display: flex;
   flex-direction: row;
-}
-
-.sobre-img > img {
-  height: 55%;
-  width: 55%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  margin: 1em;
-  border-radius: 30em;
-}
-
-.bi-link-45deg {
-  color: #FFE3BA;
-}
-
-.links .social {
-  margin: 1em;
-}
-
-.social a {
-  color: #b9b9b9;
-}
-.social .bi-github:hover {
-  color: #9b58e7;
-  transition: 1s;
-}
-.social .bi-linkedin:hover {
-  color: #0A66C2;
-  transition: 1s;
-}
-.social .bi-spotify:hover {
-  color: #22C95C;
-  transition: 1s;
-}
-.social .bi-instagram:hover {
-  color: #D52C66;
-  transition: 1s;
-}
-
-.bi-envelope {
-  color: #FFE3BA;
-}
-
-.email-item {
-  font-size: 1.1em;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: 700;
-}
-
-#mapa .bi {
-  color: #FFE3BA;
-  margin-bottom: 1em;
-}
-
-#maps iframe {
-  margin: auto;
-  border: 0;
-  border-radius: 2em;
 }
 
 .logo-body {
