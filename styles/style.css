@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700;800;900&display=swap");
+body {
+  background: linear-gradient(to top, hsl(141, 81%, 87%) 0%, hsl(41, 88%, 75%) 50%, hsl(358, 82%, 71%) 100%);
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+}
+header nav .container-fluid .skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+footer {
+  padding: 40px 20px;
+}
+footer .email-footer {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+footer .email-footer p {
+  color: rgb(46, 46, 46);
+  font-size: 2vw;
+}
+footer .nav a {
+  text-decoration: none;
+  color: black;
+}
+footer .nav-link .bi-github:hover {
+  color: #9b58e7;
+  transition: 1s;
+}
+footer .nav-link .bi-linkedin:hover {
+  color: #0A66C2;
+  transition: 1s;
+}
+footer .nav-link .bi-spotify:hover {
+  color: #22C95C;
+  transition: 1s;
+}
+footer .nav-link .bi-instagram:hover {
+  color: #D52C66;
+  transition: 1s;
+}
+
+main .apresentacao {
+  margin: 60px 10px 60px 60px;
+}
+main .apresentacao .intro {
+  color: white;
+  text-transform: uppercase;
+}
+main .apresentacao .intro .breve-intro {
+  max-width: 68%;
+}
+main .apresentacao .intro h2 {
+  padding: 0em;
+  margin: 0em;
+  font-weight: 800;
+  font-size: 10vw;
+  line-height: 0.9;
+}
+main .apresentacao .intro h1 {
+  font-weight: 800;
+  font-size: 4vw;
+}
+main .apresentacao .intro p {
+  font-family: "Montserrat", sans-serif;
+  text-transform: none;
+  font-size: 2vw;
+  margin-left: 5px;
+}
+main .apresentacao .intro .lista-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+}
+main .apresentacao .intro .lista-links .icones-links {
+  text-align: left;
+}
+main .apresentacao .intro .lista-links .icones-links .bi {
+  margin-top: 20%;
+}
+main .apresentacao .intro .lista-links .icones-links ul li {
+  margin-right: 1vw;
+  list-style-type: none;
+  display: inline;
+  text-align: left;
+}
+main .apresentacao .intro .lista-links .icones-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+main .apresentacao .intro .lista-links .icones-links ul li a .bi-linkedin:hover {
+  margin-top: 10%;
+  color: #ade2ff;
+  transition: 0.5s;
+}
+main .apresentacao .intro .lista-links .icones-links ul li a .bi-github:hover {
+  margin-top: 10%;
+  color: #e3b3ff;
+  transition: 0.5s;
+}
+main .apresentacao .intro .lista-links .icones-links ul li a .bi-file-earmark-text-fill:hover {
+  margin-top: 10%;
+  color: #c2ffb3;
+  transition: 0.5s;
+}
+
+.container-logo {
+  justify-content: center;
+  margin-top: 40px;
+}
+.container-logo .logo {
+  margin: auto;
+  text-align: center;
+}
+
+.telas {
+  margin: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.telas .tela {
+  text-align: center;
+} /*# sourceMappingURL=style.css.map */
