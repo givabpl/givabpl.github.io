@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Padukim</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="/icone/favicon.ico">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-opacity-10">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html" target="_self">
-                    <img src="padukim-texto.svg" alt="Bootstrap" width="150" height="50">
+                    <img src="padukim-texto.svg" alt="Bootstrap" width="100">
                 </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,7 +40,8 @@
     </header>
     
     <main>
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <!--
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -67,15 +68,28 @@
         </div>
       </div>
 
-      <h1>Uma Pequena Padaria de Cookies</h1>
-      <div id="shop">
+      -->
 
+      <div class="inicio row align-items-center justify-content-lg-around">
+        <div class="container-titulo col-12 col-lg-6">
+          <h1 id="titulo">Uma Pequena Padaria de Cookies</h1>
+        </div>
+
+        <div class="container-logo col-12 col-lg-4">
+          <picture>
+            <source media="(max-width: 1080px)" srcset="assets/logo/padukim-logo-p.png">
+            <img src="assets/logo/padukim-logo-m.png" alt="" class="logo">
+          </picture>
+        </div>
+      </div>
+
+
+
+      <!--
+        <div id="shop">
         <div class="imagem-cookie">
           <div>
             <picture>
-              <source media="(max-width: 400px)" srcset="index-main/cookie-making-1/cookie-making-1-xppp.webp" type="image/webp">
-              <source media="(max-width: 600px)" srcset="index-main/cookie-making-1/cookie-making-1-xpp.webp" type="image/webp">
-              <source media="(max-width: 880px)" srcset="index-main/cookie-making-1/cookie-making-1-pp.webp" type="image/webp">
               <source media="(max-width: 1050px)" srcset="index-main/cookie-making-1/cookie-making-1-p.webp" type="image/webp">
               <source media="(max-width: 1250px)" srcset="index-main/cookie-making-1/cookie-making-1-m.webp" type="image/webp">
               <img src="index-main/cookie-making-1/cookie-making-1-g.webp" alt="biscoitos sendo cortados ">
@@ -86,9 +100,6 @@
         <div class="imagem-cookie">
           <div>
             <picture>
-              <source media="(max-width: 400px)" srcset="index-main/cookie-making-2/cookie-making-2-xppp.webp" type="image/webp">
-              <source media="(max-width: 600px)" srcset="index-main/cookie-making-2/cookie-making-2-xpp.webp" type="image/webp">
-              <source media="(max-width: 880px)" srcset="index-main/cookie-making-2/cookie-making-2-pp.webp" type="image/webp">
               <source media="(max-width: 1050px)" srcset="index-main/cookie-making-2/cookie-making-2-p.webp" type="image/webp">
               <source media="(max-width: 1250px)" srcset="index-main/cookie-making-2/cookie-making-2-m.webp" type="image/webp">
               <img src="index-main/cookie-making-2/cookie-making-2-g.webp" alt="biscoitos preparados para assar">
@@ -99,9 +110,6 @@
         <div class="imagem-cookie">
           <div>
             <picture>
-              <source media="(max-width: 400px)" srcset="index-main/cookie-making-3/cookie-making-xppp.webp" type="image/webp">
-              <source media="(max-width: 600px)" srcset="index-main/cookie-making-3/cookie-making-3-xpp.webp" type="image/webp">
-              <source media="(max-width: 880px)" srcset="index-main/cookie-making-3/cookie-making-3-pp.webp" type="image/webp">
               <source media="(max-width: 1050px)" srcset="index-main/cookie-making-3/cookie-making-3-p.webp" type="image/webp">
               <source media="(max-width: 1250px)" srcset="index-main/cookie-making-3/cookie-making-3-m.webp" type="image/webp">
               <img src="index-main/cookie-making-3/cookie-making-3-g.webp" alt="biscoitos sendo retirados da assadeira">
@@ -110,6 +118,7 @@
         </div>
 
       </div>
+      -->
       <div id="descricao">
         <p>
           Nossos produtos são feitos com muito carinho e em pequenas quantidades, assim evitamos o desperdício.
@@ -117,7 +126,9 @@
       </div>
 
       <h2>Conheça o Nosso Ambiente!</h2>
-      <div id="shop">
+      <!--
+
+        <div id="shop">
 
         <picture>
           <source media="(max-width: 400px)" srcset="index-main/shop-top/shop-top-xppp.webp" type="image/webp">
@@ -162,6 +173,7 @@
         </picture>
 
       </div>
+      -->
       <div class="lista">
         <div>
           <ul id="descr">
