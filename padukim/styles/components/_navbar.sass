@@ -1,15 +1,21 @@
 @use '../abstract/variaveis.sass'
 
 header
-    font-size: 1.4vw
-    font-family: variaveis.$main-font
-    .pagination 
-        text-align: center
-        justify-content: center
-        margin-top: 3em
-        a
-            color: #4A4A4B
-            font-family: 'Libre Baskerville', serif
-            &:hover
-                color: black
-                transition: 0.5s
+    .navbar
+        font-weight: bold
+        font-size: 1.5vw
+        font-family: variaveis.$main-font
+        .pagination 
+            text-align: center
+            justify-content: center
+            margin-top: 3em
+            a
+                color: #3b3634
+                font-family: 'Libre Baskerville', serif
+                &:hover
+                    color: black
+                    transition: 0.5s
+    @media (max-width: 1080px)
+        .navbar
+            font-size: 16px
+
