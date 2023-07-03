@@ -119,6 +119,7 @@ main .container-projetos {
   margin-top: 40px;
 }
 main .container-projetos .projeto {
+  cursor: default;
   text-align: center;
 }
 main .container-projetos .projeto img {
@@ -180,6 +181,7 @@ main .container-projetos .projeto .descricao-projeto p {
 }
 
 footer {
+  cursor: default;
   padding: 20px;
 }
 footer .email-footer {
