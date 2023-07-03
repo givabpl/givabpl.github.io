@@ -4,4 +4,5 @@ body
     @mixin bg-cores($lado, $cores...)
         background: linear-gradient(to top, $cores)
         background-attachment: scroll
+        background-size: cover
     @include bg-cores("top", variaveis.$bg-first, variaveis.$bg-second, variaveis.$bg-third)

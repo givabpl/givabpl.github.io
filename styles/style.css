@@ -3,6 +3,7 @@
 body {
   background: linear-gradient(to top, hsl(141, 81%, 87%) 0%, hsl(41, 88%, 75%) 50%, hsl(358, 82%, 71%) 100%);
   background-attachment: scroll;
+  background-size: cover;
 }
 
 main .container-apresentacao {
