@@ -1,27 +1,21 @@
 @use '../abstract/variaveis.sass'
 
-main 
-    .apresentacao
-        margin: 15% 8%
-        .intro
+main
+    .container-apresentacao
+        cursor: default
+        margin-left: 40px
+        display: flex
+        justify-content: center
+        .container-intro
             color: white
             text-transform: uppercase
-            .breve-intro
-                max-width: 90%
             h2
-                padding: 0em
-                margin: 0em
                 font-weight: 800
                 font-size: 10vw
                 line-height: 0.9
             h1
                 font-weight: 800
                 font-size: 4vw
-            p
-                font-family: 'Montserrat', sans-serif
-                text-transform: none
-                font-size: 2.5vw
-                margin-left: 5px
             .lista-links
                 display: flex
                 align-items: center
@@ -42,3 +36,10 @@ main
                             margin-top: 10%
                             color:  #c2ffb3
                             transition: 0.5s
+            .breve-intro
+                p
+                    font-family: 'Montserrat', sans-serif
+                    text-transform: none
+                    font-size: 2.5vw
+                    margin-left: 5px
+            

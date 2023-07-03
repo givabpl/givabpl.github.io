@@ -1,6 +1,8 @@
 @use 'variaveis.sass'
 
+
 body 
     @mixin bg-cores($lado, $cores...)
         background: linear-gradient(to top, $cores)
+        background-attachment: fixed
     @include bg-cores("top", variaveis.$bg-first, variaveis.$bg-second, variaveis.$bg-third)
