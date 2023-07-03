@@ -8,12 +8,14 @@ main
         margin-top: 40px
         .projeto
             text-align: center
+            img
+                width: 100%
             .descricao-projeto
                 margin-top: 20px
                 .link-projeto
                     font-family: 'Libre Baskerville', serif
                     font-size: 28px
-                    padding: 15px 
+                    padding: 10px 
                     border: 2px solid #3b3634
                     border-radius: 30px
                     color: #3b3634
@@ -25,10 +27,27 @@ main
                         color: #5c4841
                         border-color: #5c4841
                         transition: 0.5s
+                @media (max-width: 770px)
+                    .link-projeto
+                        font-size: 24px
+                @media (max-width: 550px)
+                    .link-projeto
+                        font-size: 22px
+                @media (max-width: 440px)
+                    .link-projeto
+                        font-size: 20px
                 p
-                    margin-top: 20px
-                    font-size: 22px
-
+                    margin: 20px 
+                    font-size: 24px
+                @media (max-width: 770px)
+                    p
+                        font-size: 22px
+                @media (max-width: 550px)
+                    p
+                        font-size: 20px
+                @media (max-width: 440px)
+                    p
+                        font-size: 16px
 
 
 

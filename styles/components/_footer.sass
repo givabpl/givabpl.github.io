@@ -8,7 +8,19 @@ footer
         margin: auto
         p
             color: rgb(46, 46, 46)
-            font-size: 2.5vw
+            font-size: 22px
+            margin-top: 20px
+        @media (max-width: 770px)
+            p
+                font-size: 20px
+        @media (max-width: 550px)
+            p
+                font-size: 18px
+                margin-top: 12px
+        @media (max-width: 440px)
+            p
+                font-size: 16px
+                margin-top: 10px
     .nav 
         a
             text-decoration: none
@@ -26,3 +38,12 @@ footer
         .bi-instagram:hover 
             color: #D52C66
             transition: 1s
+        @media (max-width: 770px)
+            .bi
+                width: 40px
+        @media (max-width: 550px)
+            .bi
+                width: 30px
+        @media (max-width: 440px)
+            .bi
+                width: 20px
