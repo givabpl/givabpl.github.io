@@ -198,20 +198,43 @@ main .produtos {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  max-width: 1200px;
   margin: 20px;
   gap: 28px;
 }
 main .produtos .produto {
-  background-color: rgba(255, 255, 255, 0.0392156863);
+  font-family: "Libre Baskerville", serif;
+  background-color: rgba(255, 255, 255, 0.3411764706);
   padding: 15px;
-  box-shadow: rgba(0, 0, 0, 0.09);
-  border: 1px solid black;
+  border: none;
   border-radius: 30px;
 }
+main .produtos .produto h2 {
+  margin-top: 5px;
+  font-size: 26px;
+}
+main .produtos .produto p {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+main .produtos .produto a {
+  text-decoration: none;
+  color: #382b26;
+}
 main .produtos .produto img {
-  border-radius: 25px;
+  border-radius: 30px;
 }
 main .produtos .modalDialog {
   display: none;
+}
+
+#nav-produtos {
+  margin-top: 50px;
+}
+#nav-produtos .pagination {
+  justify-content: center;
+}
+#nav-produtos .pagination .page-item a {
+  font-weight: 600;
+  color: #382b26;
 }/*# sourceMappingURL=style.css.map */
