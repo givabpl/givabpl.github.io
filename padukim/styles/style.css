@@ -116,7 +116,7 @@ main .descricao ul {
 }
 @media (max-width: 550px) {
   main .inicio .container-titulo #titulo {
-    font-size: 54px;
+    font-size: 50px;
   }
   main .inicio .container-logo .logo {
     padding: 10px;
@@ -130,7 +130,7 @@ main .descricao ul {
 }
 @media (max-width: 420px) {
   main .inicio .container-titulo #titulo {
-    font-size: 54px;
+    font-size: 46px;
   }
   main .inicio .container-logo .logo {
     padding: 10px;
@@ -143,22 +143,21 @@ main .descricao ul {
   }
 }
 
-#footer-imgs {
+footer #footer-imgs {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   padding: 20px;
 }
-#footer-imgs a {
+footer #footer-imgs a {
   margin: 10px;
   color: #EFDFBB;
 }
-#footer-imgs a:hover {
+footer #footer-imgs a:hover {
   color: white;
   transition: 0.5s;
 }
-
-.copyright {
+footer .copyright {
   font-family: "Libre Baskerville", serif;
   text-align: center;
   font-size: 14px;
@@ -167,15 +166,16 @@ main .descricao ul {
 }
 
 .imagens-padukim {
-  margin-top: 10px;
+  margin: 30px;
   display: flex;
   justify-content: center;
+  gap: 15px;
 }
 .imagens-padukim .imagem {
-  margin: 10px;
   padding: 0;
 }
 .imagens-padukim .imagem img {
+  width: 100%;
   border-radius: 30px 0;
 }
 
@@ -237,4 +237,61 @@ main .produtos .modalDialog {
 #nav-produtos .pagination .page-item a {
   font-weight: 600;
   color: #382b26;
+}
+
+main h1 {
+  margin-top: 30px;
+}
+main .servicos {
+  display: flex;
+  justify-content: center;
+}
+main .servicos h2 {
+  margin-top: 30px;
+}
+main .servicos p {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  max-width: 68%;
+}
+
+main h1 {
+  font-size: 52px;
+}
+main .form-floating {
+  justify-content: center;
+  margin: 30px 100px;
+}
+@media (max-width: 980px) {
+  main h1 {
+    font-size: 48px;
+  }
+  main .form-floating {
+    margin: 20px 80px;
+  }
+}
+@media (max-width: 770px) {
+  main h1 {
+    font-size: 46px;
+  }
+  main .form-floating {
+    margin: 15px 60px;
+  }
+}
+@media (max-width: 550px) {
+  main h1 {
+    font-size: 44px;
+  }
+  main .form-floating {
+    margin: 10px 30px;
+  }
+}
+@media (max-width: 420px) {
+  main h1 {
+    font-size: 42px;
+  }
+  main .form-floating {
+    margin: 10px 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
