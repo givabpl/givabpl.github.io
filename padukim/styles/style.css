@@ -143,6 +143,9 @@ main .descricao ul {
   }
 }
 
+footer {
+  background-color: rgba(239, 223, 187, 0);
+}
 footer #footer-imgs {
   display: flex;
   justify-content: center;
@@ -293,5 +296,85 @@ main .form-floating {
   }
   main .form-floating {
     margin: 10px 20px;
+  }
+}
+
+main h1 {
+  font-size: 52;
+}
+main h3 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+}
+main .texto-sobrenos {
+  text-align: center;
+}
+main .texto-sobrenos p {
+  font-size: 24px;
+  margin: 30px 100px;
+}
+main .imagens-sobrenos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin: 40px 20px;
+}
+main .imagens-sobrenos img {
+  width: 100%;
+  border-radius: 80px;
+}
+@media (max-width: 980px) {
+  main .texto-sobrenos p {
+    font-size: 22px;
+    margin: 20px 40px;
+  }
+  main h1 {
+    font-size: 48px;
+  }
+  main h3 {
+    font-size: 30px;
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 770px) {
+  main .texto-sobrenos p {
+    font-size: 22px;
+    margin: 20px 30px;
+  }
+  main h1 {
+    font-size: 44px;
+  }
+  main h3 {
+    font-size: 28px;
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 550px) {
+  main .texto-sobrenos p {
+    font-size: 18px;
+    margin: 20px;
+  }
+  main h1 {
+    font-size: 40px;
+  }
+  main h3 {
+    font-size: 28px;
+    margin: 0px 10px;
+  }
+}
+@media (max-width: 420px) {
+  main .texto-sobrenos p {
+    font-size: 16px;
+    margin: 20px;
+  }
+  main h1 {
+    font-size: 36px;
+  }
+  main h3 {
+    font-size: 26px;
+    margin: 0px 10px;
   }
 }/*# sourceMappingURL=style.css.map */
