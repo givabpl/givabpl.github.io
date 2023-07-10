@@ -1,8 +1,18 @@
 @use 'variaveis.sass'
 
 body 
-    @mixin bg-cores($lado, $cores...)
-        background: linear-gradient(to top, $cores)
-        background-attachment: scroll
-        background-size: cover
-    @include bg-cores("top", variaveis.$bg-first, variaveis.$bg-second, variaveis.$bg-third)
+    .container-apresentacao
+        @mixin bg-cores($lado, $cores...)
+            background: linear-gradient(45deg, $cores)
+            background-size: cover
+        @include bg-cores("top", variaveis.$bg-first, variaveis.$bg-second, variaveis.$bg-third)
+        animation: colors 15s ease infinite
+        background-size: 300% 300%
+        @keyframes colors 
+          0% 
+            background-position: 0% 50%
+          50% 
+            background-position: 100% 50%
+          100% 
+            background-position: 0% 50%
+        
