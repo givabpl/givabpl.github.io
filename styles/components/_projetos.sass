@@ -5,8 +5,9 @@ main
     .container-projetos
         display: flex
         justify-content: center
-        margin-top: 40px
         .projeto
+            background-color: #0000005e
+            padding: 20px
             cursor: default
             text-align: center
             img
@@ -25,9 +26,10 @@ main
                     text-transform: uppercase
                     text-align: center
                     font-weight: 800
+                    transition: 0.5s
                     &:hover
                         border-width: 5px
-                        border-image: linear-gradient(to top, #a89187, #3b3634) 4
+                        border-image: linear-gradient(to top, #a89187, #3b3634) 1
                         transition: 0.5s
                 @media (max-width: 770px)
                     .link-projeto
