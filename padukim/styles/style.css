@@ -84,6 +84,15 @@ main .descricao ul {
   main .inicio .container-titulo #titulo {
     font-size: 1.8rem;
   }
+  main .descricao {
+    margin-top: 20px;
+  }
+  main .descricao h2 {
+    font-size: 28px;
+  }
+  main .descricao ul {
+    font-size: 18px;
+  }
 }
 @media (max-width: 663px) {
   main .inicio .container-titulo {

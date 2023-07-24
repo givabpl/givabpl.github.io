@@ -18,21 +18,8 @@ body .container-apresentacao {
   }
 }
 body .container-projetos {
-  background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+  background: linear-gradient(to left, #a89187, #cd8d7b, #a89187);
   background-size: cover;
-  animation: colors 15s ease infinite;
-  background-size: 300% 300%;
-}
-@keyframes colors {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 main .container-apresentacao {
@@ -192,30 +179,39 @@ main .container-apresentacao .container-intro .breve-intro p {
 }
 
 main .container-projetos {
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  padding: 40px;
 }
 main .container-projetos .projeto {
-  background-color: rgba(0, 0, 0, 0.368627451);
   padding: 20px;
   cursor: default;
-  text-align: center;
 }
-main .container-projetos .projeto img {
+main .container-projetos .projeto .tela-projeto {
+  max-width: 500px;
+}
+main .container-projetos .projeto .tela-projeto img {
   width: 100%;
 }
 main .container-projetos .projeto .descricao-projeto {
-  margin-top: 20px;
+  margin-top: 40px;
+  diplay: block;
+  max-width: 700px;
+}
+main .container-projetos .projeto .descricao-projeto p {
+  color: #473229;
+  text-align: start;
+  margin-top: 40px;
 }
 main .container-projetos .projeto .descricao-projeto .link-projeto {
   font-family: "Libre Baskerville", serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 20px;
-  border-width: 5px;
+  border: 4px;
   border-style: solid;
-  -o-border-image: linear-gradient(to right, #3b3634, #a89187) 1;
-     border-image: linear-gradient(to right, #3b3634, #a89187) 1;
-  color: #3b3634;
+  -o-border-image: linear-gradient(to right, #534944, #c4a99e) 1;
+     border-image: linear-gradient(to right, #534944, #c4a99e) 1;
+  color: #5e4135;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -223,9 +219,10 @@ main .container-projetos .projeto .descricao-projeto .link-projeto {
   transition: 0.5s;
 }
 main .container-projetos .projeto .descricao-projeto .link-projeto:hover {
-  border-width: 5px;
-  -o-border-image: linear-gradient(to top, #a89187, #3b3634) 1;
-     border-image: linear-gradient(to top, #a89187, #3b3634) 1;
+  color: #e2c6ba;
+  border-width: 4px;
+  -o-border-image: linear-gradient(to top, #ddbcae, #3b3634) 1;
+     border-image: linear-gradient(to top, #ddbcae, #3b3634) 1;
   transition: 0.5s;
 }
 @media (max-width: 770px) {
@@ -242,10 +239,9 @@ main .container-projetos .projeto .descricao-projeto .link-projeto:hover {
   main .container-projetos .projeto .descricao-projeto .link-projeto {
     font-size: 20px;
   }
-}
-main .container-projetos .projeto .descricao-projeto p {
-  margin: 20px;
-  font-size: 24px;
+  main .container-projetos .projeto .descricao-projeto p {
+    font-size: 24px;
+  }
 }
 @media (max-width: 770px) {
   main .container-projetos .projeto .descricao-projeto p {
